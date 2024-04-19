@@ -1,0 +1,110 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.each-comment {
+  list-style-type: none;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+.comment-details-container {
+  display: flex;
+  height: 65%;
+  width: 80%;
+  align-items: flex-start;
+}
+.first-letter {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: 10px;
+}
+.person-details-container {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.person-name-time-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-items: center;
+  width: 15%;
+  height: 60%;
+}
+.person-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.comment-text {
+  font-size: 15px;
+  color: #475569;
+}
+.comment-like-delete-container {
+  display: flex;
+  justify-content: space-between;
+  height: 30%;
+  align-items: center;
+  width: 100%;
+  margin: 8px 0px;
+  padding: 2px;
+}
+.like-liked-btn,
+.delete-btn {
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  border-width: 0px;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+.like-liked-btn img,
+.delete-btn {
+  width: 30px;
+  height: 100%;
+  margin-right: 10px;
+}
+.commit-post-time {
+  font-size: 8px;
+  font-weight: 500;
+}
